@@ -1,0 +1,111 @@
+body {    background-color: #AF8260; 
+}
+
+.about {
+    background-image:  linear-gradient(#000, #E4C59E);
+    padding: 50px 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    }
+.mission {
+    
+    padding: 75px 5%;
+    justify-content: center;
+    padding-inline: space-between;
+
+}
+
+.mission h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.mission h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.mission p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.mission button{
+justify-content: center;
+align-items: center;
+display: flex;
+margin: 0 auto;
+padding: 10px 20px;
+background-color: black;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+.about-img {
+    width: 70%;
+    height: 100%;
+    padding: 75px 5%;
+    
+}  
+
+.about-img img {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 120px 20px 120px 20px;
+    display: inline;
+}
+
+.recording-header {
+    background-color: #fff;
+    padding: 50px 0;
+   
+    display: flex;
+    flex-direction: row;
+
+}
+
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center; 
+    background-color: #E4C59E;
+    padding-bottom: 40px;
+  }
+  
+  .icon img {
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+
+.generate-now {
+    background-color: #AF8260;
+    padding: 50px 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.recording-container {
+    padding-left: 900px;
+    padding-right: 300px;
+    padding-top: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
